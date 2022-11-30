@@ -79,7 +79,47 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    background-color: grey;
     width: 40%;
+    color: white;
+    font-size: 1.3rem;
 
 }
+
+/* second content section    */
+
+  #container2-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+    font-size: 22px;
+  }
+
+  #con2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 250px;
+  }
+
+  .box-con2{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 1.2rem;
+    border: 5px solid #3882f6;
+  }
+
+  .para-con2{
+    font-size: 1.3rem;
+    margin: 10px 60px;
+    
+  }
+
+  #box1, #box2, #box3, #box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
